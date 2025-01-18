@@ -1,11 +1,76 @@
-# CS-300-Project-One
-# What was the problem you were solving in the projects for this course?
-## For project one we were required to use non-coding methodologies to evaluate different data structures such as vectors, hash tables, and binary search trees. This project also implemented a runtime analysis that helped in our design of choosing the best data structure to use. In project two we were required to take our chosen data structure from project one and design a code to address the ABCU advisors requirements. The code was to alphabetically sort a list of courses, print them, and be able to search through them for information and prerequisites for each course.
-#	How did you approach the problem? Consider why data structures are important to understand.
-## I approached the problem by trying to figure out the best data structure for this particular project. It is important to understand the data structure so that you can have the most efficient program. Each data structure has its own capabilities and limitations so knowing which one to use can greatly impact your project.
-# How did you overcome any roadblocks you encountered while going through the activities or project?
-## To overcome roadblocks I utilized teaching materials such as Zybooks, and previous projects to help develop my code. I also used YouTube to help explain parts of the data structure I was unsure about.
-# How has your work on this project expanded your approach to designing software and developing programs?
-## I was able to learn a lot about C++ and data structures that I had never used before. I can now determine different data structures and understand when and how to use them. I also learned a lot about errors and debugging.
-#	How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
-## The projects helped me to better my code by allowing me to find a way to write it in a more understandable way. I got better at commenting on my code throughout the course which is something I didn’t do enough of starting out.
+# CS-300 Project One: Data Structures and Software Design
+
+## Overview
+In **CS-300 Project One**, the focus was on evaluating different data structures such as vectors, hash tables, and binary search trees through non-coding methodologies. This evaluation included a **runtime analysis** to guide the selection of the most efficient data structure for the requirements. The subsequent **Project Two** implemented the chosen data structure to meet the **ABCU advisor's requirements**, which involved:
+- Alphabetically sorting a list of courses.
+- Printing the sorted list.
+- Searching for specific courses to retrieve their details, including prerequisites.
+
+---
+
+## Problem-Solving Process
+### What Problem Were You Solving?
+- **Project One**: Evaluate the efficiency and appropriateness of different data structures for the given requirements without directly coding.
+- **Project Two**: Implement a program that:
+  - Alphabetically sorts course data.
+  - Displays the course list.
+  - Allows for searching courses to view details and prerequisites.
+
+### Why Are Data Structures Important?
+Understanding data structures is crucial because each has unique characteristics that impact the efficiency of a program. Choosing the right data structure can:
+- Optimize runtime performance.
+- Simplify implementation.
+- Ensure scalability for larger datasets.
+
+---
+
+## Approach to the Problem
+### Evaluation and Selection
+1. **Analyzed Requirements**:
+   - Alphabetical sorting.
+   - Efficient searching.
+   - Handling of course details, including prerequisites.
+2. **Compared Data Structures**:
+   - **Vectors**: Simple and efficient for small datasets but less optimal for frequent searches or insertions.
+   - **Hash Tables**: Fast searching and insertion but lack inherent sorting.
+   - **Binary Search Trees**: Optimal for scenarios that required both sorting and efficient searching.
+
+### Implementation in Project Two
+- Chose a **hash table** for its efficiency in searching.
+- Enhanced functionality by sorting the data before display.
+
+---
+
+## Overcoming Challenges
+### Roadblocks
+1. Understanding the nuances of hash tables and linked lists.
+2. Debugging issues related to input parsing and edge cases.
+
+### Solutions
+- Used **course materials (Zybooks)** and **previous projects** for reference.
+- Leveraged external resources like **YouTube tutorials** for additional clarity on data structures and their applications.
+- Adopted a step-by-step debugging process to identify and resolve errors.
+
+---
+
+## Skills and Lessons Learned
+### Software Design and Program Development
+- Gained proficiency in C++ and foundational data structures.
+- Developed a structured approach to evaluate and implement the most suitable data structure for specific requirements.
+
+### Writing Maintainable, Readable, and Adaptable Code
+- Improved code readability through consistent use of comments and logical structuring.
+- Focused on writing modular code to ensure maintainability and adaptability for future enhancements.
+
+---
+
+## Key Takeaways
+- Data structures are not one-size-fits-all; understanding their strengths and limitations is vital for efficient software design.
+- Writing clean, well-documented code is as important as achieving functionality, as it aids in long-term maintenance and collaboration.
+- Leveraging multiple resources (e.g., course materials, tutorials) is essential for overcoming technical challenges and expanding knowledge.
+
+--- 
+
+## Final Reflection
+The work on these projects has enhanced my understanding of **data structures** and **software engineering principles**, equipping me with the tools to write efficient, maintainable, and scalable code.
+
